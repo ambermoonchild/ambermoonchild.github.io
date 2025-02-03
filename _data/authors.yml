@@ -1,7 +1,7 @@
 ambermoonchild:
   name: "Amber Dawn Johnson"
   bio: "Prompt Engineer exploring AI interactions and optimization."
-  avatar: "/assets/images/avatar.png"  # Ensure this image exists in your repo
+  avatar: "/assets/images/avatar.png"  # Ensure this image exists
   location: "Loves Park, Illinois"
   links:
     - label: "GitHub"

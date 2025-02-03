@@ -19,8 +19,8 @@ show_downloads           : false
 show_author_profile: true
 
 sidebar:
-  nav: "main"
-  author_profile: true  # This must be set
+  nav: "main" # Ensure this is correct
+  author_profile: true # This should activate the author profile in the sidebar
 
   author: ambermoonchild
 

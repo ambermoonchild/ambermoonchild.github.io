@@ -1,19 +1,20 @@
 # Authors
 
-Billy Rick:
-  name        : "Billy Rick"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+ambermoonchild:
+  name        : "Amber Dawn Johnson"
+  bio         : "Prompt Engineer exploring AI interactions and optimization."
+  avatar      : "/assets/images/avatar.png"  # Upload an image later
+  location    : "Loves Park, Illinois"
   links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ambermoonchild"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+      icon: "fas fa-envelope"
+      url: "mailto:amberdawnjohnson83@gmail.com"
 
 Cornelius Fiddlebone:
   name        : "Cornelius Fiddlebone"

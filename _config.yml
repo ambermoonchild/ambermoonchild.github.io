@@ -124,7 +124,7 @@ analytics:
 # Site Author
 author:
   name             : "Amber Dawn Johnson"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           "/assets/images/avatar.png"
   bio              : "Exploring AI prompt engineering, optimization, and structured AI interactions."
   location         : "Loves Park, Illinois"
   email            :

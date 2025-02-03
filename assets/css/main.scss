@@ -3,9 +3,23 @@
 search: false
 ---
 
+.sidebar {
+  float: left; /* Ensures the sidebar stays on the left */
+  width: 300px; /* Adjust width as needed */
+  max-width: 30%; /* Prevents it from taking too much space */
+  margin-right: 20px; /* Adds spacing between sidebar and content */
+}
+
+.initial-content {
+  margin-left: 320px; /* Shifts the main content right to make space for sidebar */
+}
+
 .sidebar__author {
-    padding: 10px;
-    text-align: center;
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 @charset "utf-8";

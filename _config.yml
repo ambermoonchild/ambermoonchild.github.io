@@ -19,8 +19,8 @@ show_downloads           : false
 show_author_profile: true
 
 sidebar:
-  nav: ""
-  author_profile: true
+  nav: "main"
+  author_profile: true  # This must be set
 
   author: ambermoonchild
 

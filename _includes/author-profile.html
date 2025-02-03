@@ -4,33 +4,37 @@
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   {% if page.author %}
-  {% assign author = site.data.authors[page.author] %}
-{% else %}
-  {% assign author = site.data.authors[site.author] %}
-{% endif %}
+    {% assign author = site.data.authors[page.author] %}
+  {% else %}
+    {% assign author = site.data.authors[site.author] %}
+  {% endif %}
 
-  # ChatGPT had me add this
-{% if author %}
-<div class="author__profile">
-  {% if author.avatar %}
-    <img src="{{ author.avatar | relative_url }}" class="author__avatar">
+  <!-- Debug Output -->
+  <pre>{{ author | inspect }}</pre> 
+
+  {% if author %}
+  <div class="author__profile">
+    {% if author.avatar %}
+      <img src="{{ author.avatar | relative_url }}" class="author__avatar">
+    {% endif %}
+    <h3 class="author__name">{{ author.name }}</h3>
+    <p class="author__bio">{{ author.bio }}</p>
+    {% if author.location %}
+      <p class="author__location"><i class="fas fa-map-marker-alt"></i> {{ author.location }}</p>
+    {% endif %}
+    <ul class="author__links">
+      {% for link in author.links %}
+        <li>
+          <a href="{{ link.url }}" target="_blank">
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
   {% endif %}
-  <h3 class="author__name">{{ author.name }}</h3>
-  <p class="author__bio">{{ author.bio }}</p>
-  {% if author.location %}
-    <p class="author__location"><i class="fas fa-map-marker-alt"></i> {{ author.location }}</p>
-  {% endif %}
-  <ul class="author__links">
-    {% for link in author.links %}
-      <li>
-        <a href="{{ link.url }}" target="_blank">
-          <i class="{{ link.icon }}"></i> {{ link.label }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
 </div>
-{% endif %}
+
 
   {% if author.avatar %}
     <div class="author__avatar">

@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "ambermoonchild"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Exploring AI prompt engineering, optimization, and structured AI interactions."
+  location         : "Loves Park, Illinois"
   email            :
   links:
     - label: "Email"

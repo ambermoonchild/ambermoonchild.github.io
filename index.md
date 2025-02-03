@@ -1,6 +1,7 @@
 ---
-title: "Prompt Engineering Portfolio"
 layout: home
+title: "Prompt Engineering Portfolio"
+author: ambermoonchild
 classes: wide
 sidebar:
   nav: "main"

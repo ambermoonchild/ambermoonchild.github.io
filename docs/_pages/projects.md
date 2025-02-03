@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-## 🎯 My Prompt Engineering Projects
+## My Prompt Engineering Projects
 
 ### 🔹 AI Pattern Recognition Prompt
 - **Goal:** Analyze AI-generated text patterns

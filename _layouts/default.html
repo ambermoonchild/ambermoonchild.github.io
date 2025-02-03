@@ -13,13 +13,13 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-      <!-- Sidebar Added Here -->
+<div class="container">
   {% include sidebar.html %}
-    
-    <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
-    </div>
+  <div class="initial-content">
+    {{ content }}
+    {% include after-content.html %}
+  </div>
+</div>
 
     {% if site.search == true %}
       <div class="search-content">

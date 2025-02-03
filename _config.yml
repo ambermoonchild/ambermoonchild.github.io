@@ -329,4 +329,7 @@ defaults:
         nav: "main"
         author_profile: true
 
+collections:
+  authors:
+    output: true
 

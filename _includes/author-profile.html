@@ -1,3 +1,6 @@
+<pre>{{ site.data.authors | inspect }}</pre>
+<pre>{{ page.author | inspect }}</pre>
+<pre>{{ site.author | inspect }}</pre>
 {% assign author = page.author | default: page.authors[0] | default: site.data.authors[site.author].name %}
 {% assign author = site.data.authors[author] | default: author %}
 

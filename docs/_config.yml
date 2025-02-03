@@ -235,6 +235,7 @@ defaults:
       comments: false
       toc_sticky: true
       sidebar:
+        nav: "main"
         author_profile: true
   # _recipes
   - scope:

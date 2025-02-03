@@ -1,6 +1,4 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-{% if page.author_profile or layout.author_profile %}
+{% if page.author_profile or layout.author_profile or site.sidebar.author_profile %}
   {% include author-profile.html %}
 {% elsif page.sidebar %}
   {% for s in page.sidebar %}
@@ -11,3 +9,4 @@
     {% if s.text %}{{ s.text | markdownify }}{% endif %}
   {% endfor %}
 {% endif %}
+

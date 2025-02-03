@@ -1,5 +1,11 @@
 ---
+---
 title: "Prompt Engineering Portfolio"
-layout: single
-author_profile: true
+layout: home
+classes: wide
+sidebar:
+  nav: "main"
+  author_profile: true
+---
+
 ---

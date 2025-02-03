@@ -1,4 +1,4 @@
----
+
 ---
 title: "Prompt Engineering Portfolio"
 layout: home
@@ -8,4 +8,3 @@ sidebar:
   author_profile: true
 ---
 
----

@@ -10,9 +10,6 @@
     {% assign author = site.data.authors[site.author] %}
   {% endif %}
 
-  <!-- Debug Output -->
-  <pre>{{ author | inspect }}</pre> 
-
   {% if author %}
   <div class="author__profile">
     {% if author.avatar %}

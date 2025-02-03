@@ -1,17 +1,10 @@
 ---
-title: "Projects"
-permalink: /projects/
+title: "About"
+permalink: /about/
 layout: single
 author_profile: true
 ---
 
-## 🎯 My Prompt Engineering Projects
+## About Me
 
-### 🔹 AI Pattern Recognition Prompt
-- **Goal:** Analyze AI-generated text patterns
-- **Result:** Improved response variability & reduced repetition
-- **Example:** [GitHub link]
-
-### 🔹 Choose Your Own Adventure (AI Story)
-- **Goal:** Create a dynamic AI-driven interactive story
-- **Example:** [GitHub link or website]
+I’m Amber Dawn Johnson, a **Prompt Engineer** specializing in AI optimization, structured interactions, and pattern recognition.

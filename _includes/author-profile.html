@@ -7,7 +7,7 @@
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   {% if page.author %}
-    {% assign author = site.data.authors[page.author] %}
+    {% assign author = site.data.authors[page.author] | default: site.data.authors[site.author] %}
   {% else %}
     {% assign author = site.data.authors[site.author] %}
   {% endif %}

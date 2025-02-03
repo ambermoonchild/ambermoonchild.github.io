@@ -17,6 +17,7 @@ show_downloads           : false
 # stuff ChatGPT had me add
 show_author_profile: true
 sidebar:
+  nav: "main"
   author_profile: true
 
 # Site Settings

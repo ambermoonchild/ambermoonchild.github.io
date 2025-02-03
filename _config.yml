@@ -322,5 +322,9 @@ defaults:
       type: pages
     values:
       layout: home
-      author_profile: true
+      classes: wide
+      sidebar:
+        nav: "main"
+        author_profile: true
+
 

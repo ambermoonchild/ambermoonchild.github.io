@@ -333,3 +333,4 @@ collections:
   authors:
     output: false
 
+# Trigger GitHub Pages rebuild

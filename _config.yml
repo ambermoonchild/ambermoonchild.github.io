@@ -123,15 +123,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Amber Dawn Johnson"
-  avatar           :"/assets/images/avatar.png"
-  bio              : "Exploring AI prompt engineering, optimization, and structured AI interactions."
-  location         : "Loves Park, Illinois"
-  email            :
+  name: "Amber Dawn Johnson"
+  avatar: "/assets/images/avatar.png"
+  bio: "Exploring AI prompt engineering, optimization, and structured AI interactions."
+  location: "Loves Park, Illinois"
+  email: "your.email@example.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:your.email@example.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
